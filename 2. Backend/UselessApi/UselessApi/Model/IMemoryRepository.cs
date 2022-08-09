@@ -2,8 +2,9 @@
 {
     public interface IMemoryRepository
     {
-        Memory Peak();
-        void Stack(Memory memory);
-        void Dequeue();
+        Memory Get();
+        void Add(Memory memory);
+        void Remove();
+        bool Update(Memory memory);
     }
 }
