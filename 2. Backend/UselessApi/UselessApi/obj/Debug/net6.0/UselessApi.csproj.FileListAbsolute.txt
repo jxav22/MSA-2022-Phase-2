@@ -28,3 +28,5 @@ C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\
 C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UselessApi\bin\Debug\net6.0\UselessApi.xml
 C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UselessApi\obj\Debug\net6.0\UselessApi.xml
 C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UselessApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UselessApi\bin\Debug\net6.0\appsettings.SmallQuotes.json
+C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UselessApi\bin\Debug\net6.0\appsettings.TechQuotes.json
