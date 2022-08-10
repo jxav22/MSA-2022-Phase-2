@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UselessApi", "UselessApi\UselessApi.csproj", "{D6378ACE-B2FA-4909-A5CD-135252B5EC6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtfulApi", "UselessApi\ThoughtfulApi.csproj", "{D6378ACE-B2FA-4909-A5CD-135252B5EC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest1", "UnitTest1\UnitTest1.csproj", "{F33F6D58-CC48-4A91-950D-E9FCEEA18A96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D6378ACE-B2FA-4909-A5CD-135252B5EC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6378ACE-B2FA-4909-A5CD-135252B5EC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6378ACE-B2FA-4909-A5CD-135252B5EC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33F6D58-CC48-4A91-950D-E9FCEEA18A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33F6D58-CC48-4A91-950D-E9FCEEA18A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33F6D58-CC48-4A91-950D-E9FCEEA18A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33F6D58-CC48-4A91-950D-E9FCEEA18A96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
