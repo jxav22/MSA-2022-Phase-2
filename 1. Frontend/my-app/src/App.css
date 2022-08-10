@@ -1,3 +1,18 @@
+body {
+  background-color: #a55e0d;
+  color: rgb(36, 13, 13);
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
 .App {
   text-align: center;
 }
