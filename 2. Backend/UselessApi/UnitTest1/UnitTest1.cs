@@ -10,7 +10,7 @@ namespace UnitTest1
         }
 
         /// <summary>
-        /// Makes sure the initial thought is "I think therefore I am"
+        /// Test's that the memory repository is initialized properly, with the thought: "I think, therefore I am"
         /// </summary>
         [Test]
         public void TestInitialThought()
@@ -23,6 +23,21 @@ namespace UnitTest1
 #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
             Assert.That(thought, Is.EqualTo("I think, therefore I am"));
+        }
+
+        /// <summary>
+        /// Test's that the add method works, that a thought that's recently stored through it can be safely retrieved. 
+        /// </summary>
+        [Test]
+        public void TestAddMethod()
+        {
+            IMemoryRepository repository = new MemoryRepository();
+
+            repository.Add(new Memory { Thought = "test thought" });
+            Memory memory = repository.Get();
+            String thought = memory.Thought;
+
+            Assert.That(thought, Is.EqualTo("test thought"));
         }
     }
 }
