@@ -22,5 +22,6 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Francis Xavier\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgNUnit_Analyzers Condition=" '$(PkgNUnit_Analyzers)' == '' ">C:\Users\Francis Xavier\.nuget\packages\nunit.analyzers\3.3.0</PkgNUnit_Analyzers>
+    <PkgNSubstitute_Analyzers_CSharp Condition=" '$(PkgNSubstitute_Analyzers_CSharp)' == '' ">C:\Users\Francis Xavier\.nuget\packages\nsubstitute.analyzers.csharp\1.0.15</PkgNSubstitute_Analyzers_CSharp>
   </PropertyGroup>
 </Project>

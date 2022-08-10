@@ -6,7 +6,7 @@ namespace UselessApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class QuoteController : ControllerBase
+    public class QuoteController : ControllerBase, IQuoteController
     {
         private readonly HttpClient _client;
         public QuoteController(IHttpClientFactory clientFactory)
@@ -32,7 +32,8 @@ namespace UselessApi.Controllers
             if (quote == null)
             {
                 return "Can't seem to get a quote...";
-            } else
+            }
+            else
             {
                 return quote;
             }
