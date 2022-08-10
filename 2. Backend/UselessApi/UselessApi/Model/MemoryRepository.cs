@@ -8,13 +8,12 @@
         public MemoryRepository()
         {
             Add(new Memory { Thought = "I think, therefore I am" });
-            _length++;
         }
 
         public Memory Get()
         {
 #pragma warning disable CS8603 // Possible null reference return.
-            return memories.Last()
+            return memories.Last();
 #pragma warning restore CS8603 // Possible null reference return.
         }
 
