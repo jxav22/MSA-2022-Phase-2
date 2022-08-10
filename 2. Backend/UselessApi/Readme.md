@@ -13,7 +13,7 @@ You can delete the latest thought. This makes an older thought the latest though
 You can get a random inspirational quote, to help you think of better thoughts.
 
 ## FREQUENTLY ASKED QUESTIONS:
-### Is there one ontroller that implements CRUB operations?
+### Is there one ontroller that implements CRUD operations?
 Yes, see MemoryController.cs
 
 ### Does it make a call to another Api?
