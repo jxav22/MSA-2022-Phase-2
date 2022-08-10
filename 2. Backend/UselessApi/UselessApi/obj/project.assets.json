@@ -250,9 +250,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francis Xavier\\Documents\\2022\\Semester 2\\Microsoft Student Accelerator\\Phase 2\\2. Backend\\UselessApi\\UselessApi\\UselessApi.csproj",
-      "projectName": "UselessApi",
-      "projectPath": "C:\\Users\\Francis Xavier\\Documents\\2022\\Semester 2\\Microsoft Student Accelerator\\Phase 2\\2. Backend\\UselessApi\\UselessApi\\UselessApi.csproj",
+      "projectUniqueName": "C:\\Users\\Francis Xavier\\Documents\\2022\\Semester 2\\Microsoft Student Accelerator\\Phase 2\\2. Backend\\UselessApi\\UselessApi\\ThoughtfulApi.csproj",
+      "projectName": "ThoughtfulApi",
+      "projectPath": "C:\\Users\\Francis Xavier\\Documents\\2022\\Semester 2\\Microsoft Student Accelerator\\Phase 2\\2. Backend\\UselessApi\\UselessApi\\ThoughtfulApi.csproj",
       "packagesPath": "C:\\Users\\Francis Xavier\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Francis Xavier\\Documents\\2022\\Semester 2\\Microsoft Student Accelerator\\Phase 2\\2. Backend\\UselessApi\\UselessApi\\obj\\",
       "projectStyle": "PackageReference",

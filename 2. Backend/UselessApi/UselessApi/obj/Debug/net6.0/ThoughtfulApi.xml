@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ThoughtfulApi</name>
+    </assembly>
+    <members>
+        <member name="M:UselessApi.Controllers.MemoryController.GetThought">
+            <summary>
+            Retrieves the most recent thought.
+            </summary>
+            <returns>The most recent thought</returns>
+        </member>
+        <member name="M:UselessApi.Controllers.MemoryController.Think(System.String)">
+            <summary>
+            Adds a new thought to it's memory, from the given string.
+            Thoughts stack, and there will always be one thought.
+            </summary>
+            <param name="thought">A string representing a thought.</param>
+            <returns>The string representing the thought.</returns>
+        </member>
+        <member name="M:UselessApi.Controllers.MemoryController.DeleteThought">
+            <summary>
+            Removes the most recent thought.
+            Cannot remove the bottom-most thought. 
+            </summary>
+        </member>
+        <member name="M:UselessApi.Controllers.MemoryController.UpdateThought(System.String)">
+            <summary>
+            Updates the most recent thought.
+            </summary>
+            <param name="thought">The new thought to replace the most recent thought.</param>
+            <returns>The new thought.</returns>
+        </member>
+        <member name="M:UselessApi.Controllers.QuoteController.GetQuote">
+            <summary>
+            Get a quote to inspire some thoughts of your own.
+            </summary>
+            <returns>A random quote</returns>
+        </member>
+    </members>
+</doc>
