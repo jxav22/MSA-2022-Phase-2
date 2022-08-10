@@ -119,3 +119,5 @@ C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\
 C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UnitTest1\obj\Debug\net6.0\UnitTest1.pdb
 C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UnitTest1\obj\Debug\net6.0\UnitTest1.genruntimeconfig.cache
 C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UnitTest1\obj\Debug\net6.0\ref\UnitTest1.dll
+C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UnitTest1\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Francis Xavier\Documents\2022\Semester 2\Microsoft Student Accelerator\Phase 2\2. Backend\UselessApi\UnitTest1\bin\Debug\net6.0\NSubstitute.dll
