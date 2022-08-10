@@ -6,32 +6,32 @@ namespace UselessApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class KanyeController : ControllerBase
+    public class QuoteController : ControllerBase
     {
         private readonly HttpClient _client;
-        public KanyeController(IHttpClientFactory clientFactory)
+        public QuoteController(IHttpClientFactory clientFactory)
         {
             if (clientFactory is null)
             {
                 throw new ArgumentNullException(nameof(clientFactory));
             }
-            _client = clientFactory.CreateClient("kanye");
+            _client = clientFactory.CreateClient("quote");
         }
 
         /// <summary>
-        /// Channel the spirit of Kanye West. Get an inspiring thought to help create your own thoughts.
+        /// Get a quote to inspire some thoughts of your own.
         /// </summary>
-        /// <returns>A quote from Kanye West</returns>
+        /// <returns>A random quote</returns>
         [HttpGet]
         [ProducesResponseType(200)]
-        public String GetKanyeQuote()
+        public String GetQuote()
         {
             var response = _client.GetStringAsync(_client.BaseAddress).Result;
-            var quote = JObject.Parse(response).GetValue("quote").ToString();
+            var quote = JObject.Parse(response).GetValue("content").ToString();
 
             if (quote == null)
             {
-                return "Can't seem to channel Kanye...";
+                return "Can't seem to get a quote...";
             } else
             {
                 return quote;

@@ -31,5 +31,11 @@
             <param name="thought">The new thought to replace the most recent thought.</param>
             <returns>The new thought.</returns>
         </member>
+        <member name="M:UselessApi.Controllers.QuoteController.GetQuote">
+            <summary>
+            Get a quote to inspire some thoughts of your own.
+            </summary>
+            <returns>A random quote</returns>
+        </member>
     </members>
 </doc>
