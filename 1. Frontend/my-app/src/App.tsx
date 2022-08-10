@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="main">
       <ThemeProvider theme={theme}>
-        <Typography variant="h2">DICTIONARY DEFINITIONS</Typography>
+        <Typography variant="h2">DICTIONARY, DEFINITIONS</Typography>
       </ThemeProvider>
 
       <TextField

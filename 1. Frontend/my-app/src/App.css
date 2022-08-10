@@ -11,6 +11,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5%;
+
+  box-sizing: border-box;
+  padding: 5%;
 }
 
 .App {
