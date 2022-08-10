@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# DICTIONARY, DEFINITIONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple project that polls https://dictionaryapi.dev/ to get definitions to words submitted by the user.
 
 ## Available Scripts
 
