@@ -21,6 +21,11 @@ builder.Services.AddSwaggerGen(options =>
     options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
+builder.Services.AddHttpClient("kanye", configureClient: client =>
+{
+    client.BaseAddress = new Uri("https://api.kanye.rest");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

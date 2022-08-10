@@ -7,6 +7,7 @@ namespace UselessApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class MemoryController : ControllerBase
     {
         static readonly IMemoryRepository repository = new MemoryRepository();
