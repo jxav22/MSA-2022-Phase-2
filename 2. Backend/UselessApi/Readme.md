@@ -15,7 +15,9 @@ You can get a random inspirational quote, to help you
 ## FREQUENTLY ASKED QUESTIONS:
 ### Does UselessApi have two different configuration files that produce a notible change in how the project is run?
 Yes. There are two different configuration files that dictate what kind of information is polled from the API.
+
 appsettings.SmallQuotes.json -> Limits the API calls to retrieve small quotes only
+
 appsettings.TechQuotes.json -> Limits the API calls to retrieve tech quotes only
 
 ### How does middleware via DI (dependancy injection) simplify your code?
