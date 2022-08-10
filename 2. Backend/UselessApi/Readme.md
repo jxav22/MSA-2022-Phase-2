@@ -25,6 +25,8 @@ I used the middle ware: SwashBuckle, via dependancy injection. It provided a fra
 and a easy way to present my API. This greatly simplified my code as I was able to abstract 
 these tasks to it, rather than messily implement it myself. 
 
+To clarify, the project just needs to be built/run and it will display all the API details + documentation.
+
 ### Why did the middleware libraries make your code easier to test?
 I was able to confirm the core functionality of my API, the CRUD requests, pretty easily through the SwashBuckle middleware.
 This made it much easier to test, as I did not need to write test cases for what I was able to determine through SwashBuckle.
