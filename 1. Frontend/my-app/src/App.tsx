@@ -38,7 +38,7 @@ function App() {
       />
 
       <Button onClick={search} variant="contained">
-        Search
+        Define
       </Button>
 
       <ThemeProvider theme={theme}>
