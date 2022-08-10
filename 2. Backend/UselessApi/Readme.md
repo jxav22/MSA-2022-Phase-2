@@ -35,6 +35,6 @@ Using middleware also limited the amount of code I created which in turn means I
 ### Does UselessApi make a call to another Api?
 Yes, it makes a call to quotable quotes (https://github.com/lukePeavey/quotable)
 
-### Does you use at least one substitute to test your code?
-Yes, I used NSubstitute to create a substitute for the controller that accessed the quotes API. 
-I was able to test if my system for storing thoughts (strings) could take data that would come from the quotes API.
+### Do you use at least one substitute to test your code?
+Yes, I used NSubstitute to create a substitute for the controller that accessed the API. 
+I was able to test if my system for storing thoughts (strings) could take data that came from the API.
