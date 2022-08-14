@@ -22,9 +22,9 @@ Yes, it makes a call to quotable quotes (https://github.com/lukePeavey/quotable)
 ### Does UselessApi have two different configuration files that produce a notible change in how the project is run?
 Yes. There are two different configuration files that dictate what kind of information is polled from the API.
 
-appsettings.SmallQuotes.json -> Limits the API calls to retrieve small quotes only
+appsettings.Development.json -> Limits the API calls to retrieve small quotes only
 
-appsettings.TechQuotes.json -> Limits the API calls to retrieve tech quotes only
+appsettings.Production.json -> Limits the API calls to retrieve tech quotes only
 
 ### How does middleware via DI (dependancy injection) simplify your code?
 I used the middle ware: SwashBuckle, via dependancy injection. It provided a framework for documentation 
